@@ -1,0 +1,49 @@
+﻿# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+*.so
+
+# === API Keys & Config ===
+tools/meeting_summary/config.py
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# === OS ===
+*.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === Temp / Output ===
+tools/meeting_summary/output/
+tools/meeting_summary/transcripts/
+# tools/meeting_summary/*.txt (keep txt files - they are transcript samples)
+tools/meeting_summary/_*.py
+test*.txt
+
+# === Large data (excluded from repo) ===
+sam3-main/image/
+sam3-main/image_8squares_300m/
+sam3-main/image_8squares_300m_filtered/
+sam3-main/masks/
+sam3-main/overlay/
+sam3-main/outputs_k*/
+sam3-main/sampling_output/
+sam3-main/assets/
+sam3-main/__pycache__/
+sam3-main/*.egg-info/
+sam3-main/*.geojson
+sam3-main/*.docx
+*.jpg
+*.png
+*.jpeg
+*.tif
+*.tiff
+*.npy
